@@ -1,0 +1,42 @@
+body{
+    background-color: #0f1923; 
+    color: white;
+}
+
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -300px;
+    margin-left: 400px;
+}
+
+.cabecalho h1 {
+    color: #ff4655;
+    text-transform: uppercase;
+    align-items: center;
+    font-size: 50px;
+
+}
+
+.contador {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.8rem;
+}
+
+.contador i {
+    color: #ff4655;
+}
+
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 30px;
+    justify-items: center;
+}
+
+
