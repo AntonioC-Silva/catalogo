@@ -12,7 +12,7 @@
 }
 
 .card img{
-    width: 100%;
+    width: 300px;
     height: auto;
     border-radius: 8px;
 }
@@ -24,6 +24,7 @@
 
 .favor i {
     transition: transform 0.2s ease-in-out, color 0.2s;
+    background-color: transparent;
 }
 
 .bi-star-fill {
